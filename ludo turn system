@@ -1,0 +1,33 @@
+#ludo goti system
+import random
+li=[1,2,3,4,5,6]
+while(1):
+    
+    a=input("press E to continue")
+    if a=="E" or a=="e":
+       print("user One turn:")
+       a=random.choice(li)
+       print(f"you got {a}")
+    else:
+        print("Your turn is skiped")
+    a=input("press E to continue")
+    if a=="E" or a=="e":
+       print("user Two turn:")
+       a=random.choice(li)
+       print(f"you got {a}")
+    else:
+       print("Your turn is skiped")
+    a=input("press E to continue")
+    if a=="E" or a=="e":
+       print("user Three turn:")
+       a=random.choice(li)
+       print(f"you got {a}")
+    else:
+        print("Your turn is skipped")
+    a=input("press E to continue")
+    if a=="E" or a=="e":
+       print("user Four turn:")
+       a=random.choice(li)
+       print(f"you got {a}")
+    else:
+        print("Your turn is skipped")
