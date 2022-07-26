@@ -1,0 +1,9 @@
+#random bill payer between friends
+import random
+a=input("enter the total number of friends")
+list_of_friends=[]
+for i in range(1,int(a)+1):
+    name=input("enter name")
+    list_of_friends.append(name)
+aa=random.randint(1,int(a))
+print(f"{list_of_friends[aa]} will pay the Bill.")
