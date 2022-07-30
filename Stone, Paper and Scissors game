@@ -1,0 +1,227 @@
+import random
+print("Hello Welcome to Rock, Paper and Scissors\n")
+print("press 0 for ROCK")
+print("press 1 for PAPER")
+print("press 2 for SCISSORS")
+
+b=random.randint(0,2)
+a=int(input())
+if a==0 and b==0:
+    print("You chose ROCK")
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("Computer Chose Rock")
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("THE GAME IS DRAW!!!")
+
+
+elif a==1 and b==1:
+    print("You chose PAPER")
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    print("\n\n")
+    print("Computer Chose PAPER")
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    print("\n\n")
+    print("THE GAME IS DRAW!!!")
+
+
+elif a==2 and b==2:
+    print("You chose SCISSORS")
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("Computer Chose SCISSORS")
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("THE GAME IS DRAW!!!")
+
+elif a==0 and b==1:
+    print("You chose ROCK")
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("Computer Chose PAPER")
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    print("\n\n")
+    print("COMPUTER WINS!!!")
+
+elif a==1 and b==0:
+    print("You chose PAPER")
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    
+    print("\n\n")
+    print("Computer Chose ROCK")
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+
+    print("\n\n")
+    print("YOU WIN!!!")
+
+
+elif a==0 and b==2:
+    print("You chose ROCK")
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("Computer Chose SCISSORS")
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("YOU WIN!!!")
+
+elif a==2 and b==0:
+    print("You chose SCISSORS")
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    
+    print("\n\n")
+    print("Computer Chose ROCK")
+    print("""
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+""")
+
+    print("\n\n")
+    print("COMPUTER WINS!!!")
+
+
+
+elif a==1 and b==2:
+    print("You chose PAPER")
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+    print("\n\n")
+    print("Computer Chose SCISSORS")
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    print("\n\n")
+    print("COMPUTER WINS!!!")
+
+elif a==2 and b==1:
+    print("You chose SCISSORS")
+    print("""
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+""")
+    
+    print("\n\n")
+    print("Computer Chose PAPER")
+    print("""
+     _______
+---'    ____)____
+           ______)
+          _______)
+         _______)
+---.__________)
+""")
+
+    print("\n\n")
+    print("YOU WIN!!!")
+
+
